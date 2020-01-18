@@ -1,8 +1,10 @@
 ---
-title: "3D Modeling + \nGenerative ML Models"
+title: "Winter 2020 Dev Blog"
 layout: home
 ---
 
-Project Rodin is an investigation into the ability of state-of-the-art generative ML models to synthesize polygonal meshes that could be used in a video game. The project's name comes from Auguste Rodin, a famous French sculptor. Through this project I wish to explore if it is possible to create a pipeline that uses one of these ML models to automatically generate 3D models and then converts them into a format ready for use in a game engine such as Unity.
+This is a development blog chronicling my work with Wolverine Soft Studio on their project this semester. Wolverine Soft is a student game development organization at the University of Michigan that I have helped run for nearly three years now.
 
-My work is being done as part of EECS 499 independent study research at the University of Michigan. I will be using this website to post weekly updates on the status of the project, so please check it out!
+The Studio is aiming to develop a 2D platformer game from January to April 2020 as an educational opportunity for its members to learn more about game development on a large team over longer timelines than standard course projects.
+
+This page will be updated biweekly with new posts about my developing progress in my work on the game.

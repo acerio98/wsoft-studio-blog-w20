@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: "Project Rodin"
+title: "Wolverine Soft Studio"
 email: "ariopell@umich.edu"
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
@@ -25,7 +25,7 @@ author:
   picture:
 twitter_username: "@a_riopelle"
 github_username: "acerio98"
-logo: "pics/rodin-logo.png"
+logo: "pics/wsoft-logo.png"
 search: # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia
