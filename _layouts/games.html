@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% include page-intro.html %}
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <div class="entry-wrap">
+      <div class="entry-content">
+        <div class="container" style="margin-left:-20px;">
+
+          {% assign rows = content | split:"@row" %}
+          {% for row in rows %}
+            <div class="row" id="row-{{ forloop.index }}" style="margin-bottom:30px;">
+
+              {% assign columns = row | split:"@column" %}
+              {% for column in columns %}
+                <div class="col-sm-{{ 12 | divided_by:forloop.length }}">
+                  {{ column }}
+                </div>
+              {% endfor %}
+
+            </div>
+          {% endfor %}
+
+        </div>
+      </div>
+      <aside class="entry-sidebar">
+        {% include author %}
+        {% if author_picture %}
+          <img class="author-picture" src="{{ author_picture }}" alt="{{ author_name }}">
+        {% endif %}
+      </aside>
+    </div>
+  </div>
+</main>

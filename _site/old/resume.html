@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Resume</title>
+		<link rel="stylesheet" href="styles/mainpage.css" type="text/css" />
+		<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+	</head>
+	<body>
+		<div id="navbar">
+			<canvas id="c">
+			</canvas>
+			<a href="/">
+				<div id="canvas1" class="canvas"
+					onmouseenter="selectCube(1);" onmouseleave="deselectCube(1);">
+				</div>
+			</a>
+			<a href="/about" >
+				<div id="canvas2" class="canvas"
+					onmouseenter="selectCube(2);" onmouseleave="deselectCube(2);">
+				</div>
+			</a>
+			<a href="/projects">
+				<div id="canvas3" class="canvas"
+					onmouseenter="selectCube(3);" onmouseleave="deselectCube(3);">
+				</div>
+			</a>
+			<a href="/resume">
+				<div id="canvas4" class="canvas"
+					onmouseenter="selectCube(4);" onmouseleave="deselectCube(4);">
+				</div>
+			</a>
+			<a href="/contact">
+				<div id="canvas5" class="canvas"
+					onmouseenter="selectCube(5);" onmouseleave="deselectCube(5);">
+				</div>
+			</a>
+		</div>
+		<div id="content">
+			<div id="name-area">
+				<p id="name">Resume</p>
+			</div>
+			<div id="other-area">
+				<div id="link-area">
+					<a href="/files/austin_riopelle_resume.pdf" style="color:#7997A1;">Link to Resume</a>
+				</div>
+				<div id="work-area">
+					<div class="title">
+						Work Experience:
+					</div>
+					<div class="item">
+						<div class="item-title">
+							Solebrity, Inc.
+						</div>
+						<div class="item-content">
+							<div class="item-pic">
+								<img src="pics/soleb.png" alt="Solebrity Logo, link:https://solebrityapp.files.wordpress.com/2014/11/solebrity-logo.png?w=300" class="item-content-pic">
+							</div>
+							<div class="item-text">
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-title">
+							American Wood Council
+						</div>
+						<div class="item-content">
+							<div class="item-pic">
+								<img src="pics/awc.png" alt="AWC Logo, link:https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAPnAAAAJDViZTIzMjYwLWJhNDAtNDEwZi04NTgxLTE4ZDlmZjJiY2QwOA.png" class="item-content-pic">
+							</div>
+							<div class="item-text">
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		
+		
+		<script src="js/three.min.js"></script>
+		<script src="js/cube.js"></script>
+	</body>
+</html>
